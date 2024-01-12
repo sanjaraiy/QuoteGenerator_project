@@ -49,3 +49,58 @@ body{
     content: '"';
 
 }
+.quote-box span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+
+}
+.quote-box span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.quote-box div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.quote-box button{
+    background: rgb(23, 124, 229);
+    color: #fff;
+    border-radius: 25px;
+    border:1px solid rgb(23, 124, 229);
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.quote-box button:nth-child(1):hover{
+  background:rgb(9, 94, 185);
+  
+}
+.quote-box button i{
+    width: 20px;
+    margin-right:10px;
+
+}
+.quote-box button:nth-child(2){
+    background:transparent ;
+    color: #333;
+}
+.quote-box button:nth-child(2):hover{
+    box-shadow: 0px 0px 5px rgb(9, 94, 185);
+    transition: 0.2s;
+}
