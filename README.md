@@ -20,8 +20,7 @@ You need a web browser to run this project.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/sanjaraiy/QuoteGenerator_project
-   .git
+   git clone https://github.com/sanjaraiy/QuoteGenerator_project.git
    ```
 2. Open the index.html file in your web browser
 
